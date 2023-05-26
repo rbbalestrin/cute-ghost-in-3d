@@ -4,15 +4,8 @@ import type { UserConfig } from 'vite'
 const config: UserConfig = {
   plugins: [sveltekit()],
   ssr: {
-    noExternal: ['three', 'troika-three-text'],
-  },
-  build: {
-	rollupOptions: {
-	  external: [
-		 /^node:.*/,
-	  ]
-	}
- }
+	noExternal: ['three', 'troika-three-text']
+}
 }
 
 export default config
