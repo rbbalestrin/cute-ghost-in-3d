@@ -19,6 +19,7 @@
 		position: { x: 0, y: 1.9, z: 2 },
 		color: 'hsl(60, 100%, 50%)',
 	};
+	
 	function float() {
 		const timeInSeconds = Date.now() / 1000;
 		const offsetY = 2.9;
