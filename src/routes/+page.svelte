@@ -39,7 +39,7 @@
 		<Threlte.OrbitControls />
 	</Threlte.OrthographicCamera>
 
-	<Threlte.AmbientLight color="blue" intensity={4} />
+	<Threlte.AmbientLight color="blue" intensity={3} />
 	<Threlte.PointLight intensity={0.2} {...pointLight} />
 	<Threlte.PointLight intensity={1} position={{ x: 0, y: 2, z: 2 }} color="blue" />
 	
