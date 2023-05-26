@@ -6,6 +6,13 @@ const config: UserConfig = {
   ssr: {
     noExternal: ['three', 'troika-three-text'],
   },
+  build: {
+	rollupOptions: {
+	  external: [
+		 /^node:.*/,
+	  ]
+	}
+ }
 }
 
 export default config
